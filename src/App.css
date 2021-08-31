@@ -1,0 +1,22 @@
+.custom-class-img{
+width: 100%;
+
+background-size: cover;
+
+}
+
+.custom-font-class {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.font-custom {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.custom-bg-image-2{
+    background-image: url("./assets/Image/bussinesses.jpg");
+  
+}
