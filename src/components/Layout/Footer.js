@@ -1,6 +1,6 @@
 import React from "react";
 
-import LogoImg from "../../assets/Logo/logo2.png";
+import LogoImg from "../../assets/Logo/Brand-New-Logo.png";
 function IndexPage() {
   return (
     <>

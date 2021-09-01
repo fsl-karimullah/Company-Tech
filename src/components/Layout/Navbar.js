@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LogoCompany from "../../assets/Logo/logo2.png";
+import LogoCompany from "../../assets/Logo/Brand-New-Logo.png";
 import { useState } from "react";
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -16,8 +16,8 @@ const Navbar = () => {
                 className="flex items-center py-4 px-2 text-gray-700"
                 to="/"
               >
-                <img className="mr-3 w-7 " src={LogoCompany} alt="logo" />
-                <span className="font-bold">Sixeyes-tech</span>
+                <img className="mr-3 w-10 " src={LogoCompany} alt="logo" />
+                <span className="font-bold text-xl">Sixeyes-tech</span>
               </Link>
             </div>
             
