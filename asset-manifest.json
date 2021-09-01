@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Company-Tech/static/css/main.c7384eb3.chunk.css",
-    "main.js": "/Company-Tech/static/js/main.5b031f67.chunk.js",
-    "main.js.map": "/Company-Tech/static/js/main.5b031f67.chunk.js.map",
+    "main.js": "/Company-Tech/static/js/main.849c7e6e.chunk.js",
+    "main.js.map": "/Company-Tech/static/js/main.849c7e6e.chunk.js.map",
     "runtime-main.js": "/Company-Tech/static/js/runtime-main.410ec495.js",
     "runtime-main.js.map": "/Company-Tech/static/js/runtime-main.410ec495.js.map",
     "static/js/2.694a0cd3.chunk.js": "/Company-Tech/static/js/2.694a0cd3.chunk.js",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.410ec495.js",
     "static/js/2.694a0cd3.chunk.js",
     "static/css/main.c7384eb3.chunk.css",
-    "static/js/main.5b031f67.chunk.js"
+    "static/js/main.849c7e6e.chunk.js"
   ]
 }
