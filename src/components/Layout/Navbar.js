@@ -34,7 +34,7 @@ const Navbar = () => {
                 className="py-4 px-3 text-gray-700 hover:text-gray-900"
                 to="/about"
               >
-                About
+                About Us
               </Link>
            
             </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link to='/about' className="block py-2 px-4 text-sm hover:bg-gray-200">
-            About
+            About Us
           </Link>
         
         </div>

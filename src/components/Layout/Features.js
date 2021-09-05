@@ -3,7 +3,7 @@ import React from 'react'
 const Features = (props) => {
     return (
         <div className='m-2 py-2 px-4'>
-            <div className='bg-gray-50 rounded-xl transform duration-500 hover:scale-110'>
+            <div className='bg-gray-50 rounded-xl transform duration-500 hover:scale-110 hover:bg-gray-300'>
                 {/* img */}
                 <div className='flex justify-center'>
                 <img className='w-96' src={props.img} alt={props.alt} />

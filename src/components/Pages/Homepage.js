@@ -11,6 +11,7 @@ import ReactLogo from "../../assets/Logo/react-logo.png";
 import BussinessImg from "../../assets/Image/bussiness.jpg";
 import OnlineWork from "../../assets/Image/online-work.svg";
 import ProgrammingImg from "../../assets/Image/programming.svg";
+import teamworkImg from '../../assets/Image/teamwork-tentang-kami.jpg'
 import DesignImg from "../../assets/Image/Design.svg";
 import Footer from "../Layout/Footer";
 import MeetingImg from "../../assets/Image/meeting.svg";
@@ -26,6 +27,7 @@ import porto3 from "../../assets/Portofolio/Porto3.png";
 import porto4 from "../../assets/Portofolio/Porto4.png";
 import porto5 from "../../assets/Portofolio/Porto5.png";
 import Portofolio from "../Layout/Portofolio";
+import Pricing from "../Layout/Pricing";
 const Homepage = () => {
   const openInNewTab = (url) => {
     const newWindow = window.open(url, "_blank", "noopener,noreferrer");
@@ -64,24 +66,24 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="">
-        <div className="text-center m-5 mt-60 font-custom text-base sm:text-lg md:text-xl items-center flex flex-col">
+      <div className="flex ">
+        <div className="custom-bg-image-4 bg-scroll md:bg-fixed bg-cover h-60  sm:h-screen ">
+        <div className="text-center text-black sm:text-white m-5 mt-60 font-custom text-base sm:text-lg md:text-xl items-center flex flex-col">
           <h1 className="text-lg md:text-3xl m-10 uppercase sm:text-2xl transform duration-700 hover:scale-105 ease-out">
-            Kami adalah komunitas{" "}
-            <span className="text-white bg-black p-3 ">baru</span>
+            Tentang{" "}
+            <span className="text-white bg-black p-3 ">Kami</span>
           </h1>
-          <p className="w-2/3 text-sm sm:text-lg">
+          <p className="w-2/3 text-sm sm:text-xl">
             Komunitas kami adalah komunitas yang bergerak di bidang teknologi,
-            yaitu pembuatan Website Portofolio (Website untuk mengenalkan produk
-            anda) dan bergerak dibidang Graphic Design, layanan kami di dalam
-            graphic design yaitu proses pembuatan Undangan, Logo Perusahaan atau
-            Komunitas, dan Banner siap print.
+            yaitu pembuatan Website Portofolio dan Meng-ONLINE-kan website tersebut (Website untuk mengenalkan produk
+            anda).
           </p>
         </div>
       </div>
+      </div>
       <div className=" custom-bg-image bg-scroll md:bg-fixed bg-cover  ">
         <div>
-          <h1 className="text-1xl pt-20 font-bold text-center sm:text-2xl font-custom mt-72 m-5 md:text-4xl uppercase">
+          <h1 className="text-1xl underline pt-20 font-bold text-center sm:text-2xl font-custom mt-72 m-5 md:text-4xl">
             Layanan kami
           </h1>
           <p className="px-10 text-xs sm:text-xl sm:px-36 font-semibold text-center ">
@@ -103,13 +105,13 @@ const Homepage = () => {
           />
           <Features
             img={DesignImg}
-            title="Graphic Design"
-            desc="Jasa Pembuatan Logo, Banner, Sertifikat, Undangan."
+            title="Dekstop"
+            desc="Pengembangan Aplikasi Berbasis Dekstop"
           />
         </div>
       </div>
       <div className="flex flex-col items-center">
-        <h1 className="text-xl md:text-4xl m-10 sm:text-3xl transform duration-700 hover:scale-105 ease-out">
+        <h1 className="text-xl underline md:text-4xl m-10 sm:text-3xl transform duration-700 hover:scale-105 ease-out">
           Portofolio
         </h1>
         <div className="grid grid-flow-col md:grid-flow-row grid-rows-5 grid-cols-1 md:grid-cols-3 sm:grid-rows-1">
