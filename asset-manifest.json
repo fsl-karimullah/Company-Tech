@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Company-Tech/static/css/main.182dc50d.chunk.css",
-    "main.js": "/Company-Tech/static/js/main.c11ea544.chunk.js",
-    "main.js.map": "/Company-Tech/static/js/main.c11ea544.chunk.js.map",
+    "main.css": "/Company-Tech/static/css/main.90f9b366.chunk.css",
+    "main.js": "/Company-Tech/static/js/main.bfdbcc0d.chunk.js",
+    "main.js.map": "/Company-Tech/static/js/main.bfdbcc0d.chunk.js.map",
     "runtime-main.js": "/Company-Tech/static/js/runtime-main.410ec495.js",
     "runtime-main.js.map": "/Company-Tech/static/js/runtime-main.410ec495.js.map",
-    "static/js/2.694a0cd3.chunk.js": "/Company-Tech/static/js/2.694a0cd3.chunk.js",
-    "static/js/2.694a0cd3.chunk.js.map": "/Company-Tech/static/js/2.694a0cd3.chunk.js.map",
+    "static/js/2.d556086a.chunk.js": "/Company-Tech/static/js/2.d556086a.chunk.js",
+    "static/js/2.d556086a.chunk.js.map": "/Company-Tech/static/js/2.d556086a.chunk.js.map",
     "index.html": "/Company-Tech/index.html",
-    "static/css/main.182dc50d.chunk.css.map": "/Company-Tech/static/css/main.182dc50d.chunk.css.map",
-    "static/js/2.694a0cd3.chunk.js.LICENSE.txt": "/Company-Tech/static/js/2.694a0cd3.chunk.js.LICENSE.txt",
+    "static/css/main.90f9b366.chunk.css.map": "/Company-Tech/static/css/main.90f9b366.chunk.css.map",
+    "static/js/2.d556086a.chunk.js.LICENSE.txt": "/Company-Tech/static/js/2.d556086a.chunk.js.LICENSE.txt",
     "static/media/Design.e3c59da0.svg": "/Company-Tech/static/media/Design.e3c59da0.svg",
     "static/media/Porto1.5267413b.png": "/Company-Tech/static/media/Porto1.5267413b.png",
     "static/media/Porto2.fc87bb28.png": "/Company-Tech/static/media/Porto2.fc87bb28.png",
@@ -31,6 +31,7 @@
     "static/media/react-logo.05e48353.png": "/Company-Tech/static/media/react-logo.05e48353.png",
     "static/media/services.f99186c9.jpg": "/Company-Tech/static/media/services.f99186c9.jpg",
     "static/media/tailwind-css-logo.8efb57ec.svg": "/Company-Tech/static/media/tailwind-css-logo.8efb57ec.svg",
+    "static/media/team.c084b144.svg": "/Company-Tech/static/media/team.c084b144.svg",
     "static/media/teams.55ed594c.svg": "/Company-Tech/static/media/teams.55ed594c.svg",
     "static/media/ui-ux.e87cdbe7.svg": "/Company-Tech/static/media/ui-ux.e87cdbe7.svg",
     "static/media/vs-code.b8b1e001.svg": "/Company-Tech/static/media/vs-code.b8b1e001.svg",
@@ -39,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.410ec495.js",
-    "static/js/2.694a0cd3.chunk.js",
-    "static/css/main.182dc50d.chunk.css",
-    "static/js/main.c11ea544.chunk.js"
+    "static/js/2.d556086a.chunk.js",
+    "static/css/main.90f9b366.chunk.css",
+    "static/js/main.bfdbcc0d.chunk.js"
   ]
 }
