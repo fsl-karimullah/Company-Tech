@@ -28,6 +28,7 @@ import porto4 from "../../assets/Portofolio/Porto4.png";
 import porto5 from "../../assets/Portofolio/Porto5.png";
 import Portofolio from "../Layout/Portofolio";
 import Pricing from "../Layout/Pricing";
+import teamSvg from '../..//assets/Image/team.svg'
 const Homepage = () => {
   const openInNewTab = (url) => {
     const newWindow = window.open(url, "_blank", "noopener,noreferrer");
@@ -35,8 +36,8 @@ const Homepage = () => {
   };
   return (
     <>
-      <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
-        <div className="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6 sm:px-32">
+      <div className="container bg-blue-900 mx-auto flex flex-col md:flex-row items-center text-white py-12 md:py-24 ">
+        <div className="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6 sm:px-32 ">
           <p className="uppercase tracking-loose">Selamat Datang</p>
           <h1 className="font-bold text-3xl my-4">Di Six Eyes Tech</h1>
           <p className="leading-normal mb-4">
@@ -49,20 +50,21 @@ const Homepage = () => {
                 "https://instagram.com/sixeyes.tech?utm_medium=copy_link"
               )
             }
-            className="bg-transparent hover:bg-gray-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent"
+            className="bg-transparent hover:bg-gray-900 text-gray-400 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent"
           >
             Instagram
           </button>
         </div>
 
         <div className="w-full lg:w-1/2 lg:py-6 text-center">
-          <svg
+          {/* <svg
             className="fill-current text-gray-900 w-3/5 mx-auto"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
           >
             <path d="M17 6V5h-2V2H3v14h5v4h3.25H11a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6zm-5.75 14H3a2 2 0 0 1-2-2V2c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-5.75zM11 8v8h6V8h-6zm3 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-          </svg>
+          </svg> */}
+          <img  className="fill-current text-gray-900 w-3/5 mx-auto" src={teamSvg} alt="" />
         </div>
       </div>
 
@@ -76,7 +78,7 @@ const Homepage = () => {
           <p className="w-2/3 text-sm sm:text-xl">
             Komunitas kami adalah komunitas yang bergerak di bidang teknologi,
             yaitu pembuatan Website Portofolio dan Meng-ONLINE-kan website tersebut (Website untuk mengenalkan produk
-            anda).
+            anda). dengan menggunakan teknologi terbaru, sehingga menghasilkan suatu SPA (Single page application) yang cepat.
           </p>
         </div>
       </div>
@@ -110,6 +112,7 @@ const Homepage = () => {
           />
         </div>
       </div>
+      <Pricing />
       <div className="flex flex-col items-center">
         <h1 className="text-xl underline md:text-4xl m-10 sm:text-3xl transform duration-700 hover:scale-105 ease-out">
           Portofolio
