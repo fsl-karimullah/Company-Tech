@@ -36,7 +36,8 @@ const Homepage = () => {
   };
   return (
     <>
-      <div className="container bg-blue-900 mx-auto flex flex-col md:flex-row items-center text-white py-12 md:py-24 ">
+    <div className="bg-blue-900">
+      <div className="mx-auto container flex flex-col md:flex-row items-center text-white py-12 md:py-24 ">
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6 sm:px-32 ">
           <p className="uppercase tracking-loose">Selamat Datang</p>
           <h1 className="font-bold text-3xl my-4">Di Six Eyes Tech</h1>
@@ -45,7 +46,7 @@ const Homepage = () => {
             Komunitas ini menerima pembuatan website, web aplikasi, dan UI & UX.
           </p>
           <button
-            onClick={() =>
+            onClick={() => 
               openInNewTab(
                 "https://instagram.com/sixeyes.tech?utm_medium=copy_link"
               )
@@ -66,6 +67,7 @@ const Homepage = () => {
           </svg> */}
           <img  className="fill-current text-gray-900 w-3/5 mx-auto" src={teamSvg} alt="" />
         </div>
+      </div>
       </div>
 
       <div className="flex ">

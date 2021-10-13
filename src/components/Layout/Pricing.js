@@ -217,7 +217,7 @@ function IndexPage() {
               </div>
               <div className="pt-8 lg:pt-0 flex items-center flex-col">
                 <h1 className="f-f-l font-black text-color text-4xl lg:text-6xl">
-                  58.900
+                 Rp. 58.900
                 </h1>
                 <button className="py-4 px-4 xl:px-10 bg-gray-100 focus:outline-none f-f-r text-xl font-bold text-color mt-7">
                 Pilih Paket Ini
@@ -432,7 +432,7 @@ function IndexPage() {
               </div>
               <div className="pt-8 lg:pt-0 flex items-center flex-col">
                 <h1 className="f-f-l font-black text-color text-4xl lg:text-6xl">
-                  74.990
+                Rp. 74.990
                 </h1>
                 <button className="py-4 px-4 xl:px-10 bg-indigo-700 hover:bg-indigo-800 f-f-r text-xl font-bold text-white mt-7">
                 Pilih Paket Ini
@@ -646,7 +646,7 @@ function IndexPage() {
               </div>
               <div className="pt-8 lg:pt-0 flex items-center flex-col">
                 <h1 className="f-f-l font-black text-color text-4xl lg:text-6xl">
-                184.900
+                Rp. 184.900
                 </h1>
                 <button className="py-4 px-4 xl:px-10 bg-gray-100 focus:outline-none f-f-r text-xl font-bold text-color mt-7">
                   Pilih Paket Ini
